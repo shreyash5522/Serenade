@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>When Love Meant Letting Go</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #222;
+      color: #ddd;
+      line-height: 1.8;
+      overflow-x: hidden;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 50px;
+      background: rgba(0, 0, 0, 0.7); /* Dark background for emotional impact */
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: all 0.5s ease;
+      transform: scale(1);
+      animation: fadeInContent 2s ease-out;
+    }
+
+    .container:hover {
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      transform: scale(1.05);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transform: translateY(-20px);
+      opacity: 1; /* Keep title visible immediately */
+    }
+
+    h1:hover {
+      color: #ffa500; /* Accent color on hover */
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 25px;
+      color: #e0e0e0;
+      opacity: 0;
+      animation: fadeInText 2s ease-out forwards;
+      transform: translateY(30px);
+    }
+
+    p:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 50px;
+      text-decoration: none;
+      color: #ffa500; /* Bright accent color */
+      font-weight: bold;
+      font-size: 20px;
+      transition: color 0.3s ease;
+      opacity: 0;
+      animation: fadeInLink 3s ease-out forwards;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    /* Fade-in for the text paragraphs */
+    @keyframes fadeInText {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Fade-in for the link */
+    @keyframes fadeInLink {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Dramatic background with slow parallax effect */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://images.unsplash.com/photo-1504017747775-38f2d9a9f35a?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg0MnwwfDF8c2VhY2h8MXx8c2NlbmVyeSUyMGdpcnB8ZW58MHx8fHwxNjg2NzA2MzI&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+      background-size: cover;
+      opacity: 0.25;
+      z-index: -1;
+      animation: parallaxEffect 10s infinite linear;
+    }
+
+    /* Slow parallax effect for the background */
+    @keyframes parallaxEffect {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>When Love Meant Letting Go</h1>
+
+    <p>There was a girl I once loved — someone whose beauty wasn’t just in her face, but in her smile, her silence, and the way she carried her world.</p>
+
+    <p>I gave her my time, my efforts, and the little things I thought didn’t matter — until they did. I stood beside her in every season of her life, not because I expected love in return, but because she meant something to me.</p>
+
+    <p>But life doesn't always reward love with love. Somewhere along the path, she found someone else — and I knew she had already left, long before the words were said.</p>
+
+    <p>So I walked away — not because I was weak, or wrong, but because I chose her happiness over my presence.</p>
+
+    <p>That night, I cried without tears. That day, I smiled with a shattered soul.</p>
+
+    <p>But somewhere in that heartbreak, I found a different kind of peace — the kind that comes when you give someone their freedom... even when it costs you everything.</p>
+
+    <p>Because sometimes, love isn’t loud. It’s letting go. It’s saying goodbye without bitterness. It’s holding the door open... and watching them walk away.</p>
+
+    <p>“Some goodbyes aren’t bitter… they’re just quiet acknowledgments that the heart tried its best.”</p>
+
+    <a href="index.html">📖 The Story is Too Long...!</a>
+  </div>
+</body>
+</html>
